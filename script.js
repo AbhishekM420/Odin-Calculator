@@ -137,6 +137,7 @@ function Minus(){
 function Decimal(){
     
     fnum += "." ;
+    fv.textContent = fnum;
 }
 function Clear(){
    fv.textContent = "";
