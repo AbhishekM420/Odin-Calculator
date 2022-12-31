@@ -1,7 +1,7 @@
 .display{
     display: flex;
     min-height: 50px;
-    width: 400px;
+    max-width: 400px;
     border: solid black 1px;
     justify-content: space-between;
 }
