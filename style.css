@@ -1,0 +1,37 @@
+.display{
+    display: flex;
+    min-height: 50px;
+    width: 400px;
+    border: solid black 1px;
+    justify-content: space-between;
+}
+
+button{
+    margin: 10px;
+    background-color: rgb(190, 188, 188);
+}
+.res{
+    align-self: flex-end;
+}
+.numbers{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px gray;
+}
+#del{
+    background-color: brown;
+}
+div{
+    font-size: large;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    align-self: center;
+    margin-top: 20%;
+}
+    
